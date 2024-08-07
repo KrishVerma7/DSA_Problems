@@ -30,39 +30,6 @@ public class Main {
 class Solution {
     public int[] getFloorAndCeil(int x, int[] arr) {
         // code here
-        // int min = arr[0];
-        // int max = arr[0];
-        
-        
-        
-        // for(int i = 1 ; i<arr.length;i++){
-        //     if(arr[i]<min){
-        //         min = arr[i];
-        //     }
-        // }
-        
-        // for(int i = 1 ; i<arr.length;i++){
-        //     if(arr[i]>max){
-        //         max = arr[i];
-        //     }
-        // }
-        
-        // if(x<min){
-        //     floor = -1;
-        // }
-            
-        // if(x>max){
-        //     ceil = -1;
-        // }
-        
-        // for(int i = 0;i<arr.length;i++){
-        //     if(arr[i]<x && arr[i]<floor){
-        //         floor =arr[i];
-        //     }else if(arr[i]>x && arr[i]>ceil){
-        //         ceil = arr[i];
-        //     }
-        // }
-        // return ans;
          int floor = -1;
         int ceil = -1;
         Arrays.sort(arr);
