@@ -15,12 +15,12 @@ public class Solution {
         ListNode P2 = headB;
         while(P1 != P2){
             if(P1 == null){
-                P1 = headA;
+                P1 = headB;
             }else{
                 P1 = P1.next;
             }
             if(P2 == null){
-                P2 = headB;
+                P2 = headA;
             }else{
                 P2 = P2.next;
             }
