@@ -21,7 +21,7 @@ class Solution {
             sum += root.left.val;
         }
         sum += sumOfLeftLeaves(root.left);
-            sum += sumOfLeftLeaves(root.right);
+        sum += sumOfLeftLeaves(root.right);
         return sum;
     }
 }
